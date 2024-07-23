@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/timetable/timetable",
+			"style" : 
+			{
+				"navigationBarTitleText" : "课表"
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "账号管理"
+			}
+		},
+		{
+			"path" : "pages/setting/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置"
+			}
+		},
+		{
+			"path" : "pages/update/update",
+			"style" : 
+			{
+				"navigationBarTitleText" : "更新日志"
+			}
+		},
+		{
+			"path" : "pages/about/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : "使用说明"
+			}
+		},
+		{
+			"path" : "pages/functions/grades/grades",
+			"style" : 
+			{
+				"navigationBarTitleText" : "成绩查询"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar":{
+	  "selectedColor":"#000000",
+	  "color": "#BEBEBE",
+	  "list":[
+	    {
+	      "pagePath": "pages/index/index",
+	      "text": "首页",
+		  "iconPath": "static/imges/tabBar/index-d.png",
+		  "selectedIconPath": "static/imges/tabBar/index.png"
+	    },
+	    {
+	      "pagePath": "pages/timetable/timetable",
+	      "text": "课表",
+		  "iconPath": "static/imges/tabBar/timetable-d.png",
+		  "selectedIconPath": "static/imges/tabBar/timetable.png"
+	    },
+	    {
+	      "pagePath": "pages/my/my",
+	      "text": "我的",
+		  "iconPath": "static/imges/tabBar/my-d.png",
+		  "selectedIconPath": "static/imges/tabBar/my.png"
+	    }
+	  ]
+	}
+}
